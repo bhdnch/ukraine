@@ -7,17 +7,18 @@
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon" />
     <title>Project</title>
     <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <img src="../images/logo-svg.svg" alt="" class="logo" />
-        <div class="lang">
+        <img src="../images/logo-svg.svg" alt="" class="logo" data-aos="fade-up" data-aos-duration="800" />
+        <div class="lang" data-aos="fade-up" data-aos-duration="800">
           <a href="../de/index.html" class="">DE</a>
           <a href="" class="lang-active">RU</a>
         </div>
-        <h1>Рецепт Украинского Борща</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1500">Рецепт Украинского Борща</h1>
       </div>
     </header>
 
@@ -26,24 +27,15 @@
         <div class="wrapper">
           <div class="video-container">
             <div class="video-wrapper">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/OzoaFVPMiI4"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/_-9nH4zFThs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
-          <a
-            href="https://www.meierskochtipps.de/2021/09/25/borschtsch-das-russische-nationalgericht/"
-            target="_blank"
-            >Текстовый вариант приготовления</a
-          >
+          <a href="https://www.vsegdavkusno.ru/recipes/borshch" target="_blank">Текстовый вариант приготовления</a>
         </div>
       </div>
     </main>
+
+    <script src="../js/aos.js"></script>
+    <script src="../js/init.js"></script>
   </body>
 </html>
