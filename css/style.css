@@ -52,7 +52,7 @@ h1 {
 @media screen and (max-width: 515px) {
   .logo {
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) !important;
   }
 }
 
@@ -66,7 +66,7 @@ h1 {
   .lang {
     top: 110px;
     right: 50%;
-    transform: translateX(50%);
+    transform: translateX(50%) !important;
   }
 }
 
